@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<script>
+      var html=document.querySelector('html');//获取html元素
+      var width=html.getBoundingClientRect().width;//获取屏幕的宽度
+      html.style.fontSize=width/10+"px"
+  	</script>
+  	<script type="text/javascript"  src="js/jquery-3.1.1.min.js"></script>
+  	<script type="text/javascript" src="js/swiper-3.4.2.min.js"></script>
+  	<script type="text/javascript" src="js/index.js"></script>
+  	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	<body>
+		<header id="hd">
+		    <div class="class"></div>
+		    <div class="search">
+		      <div class="bar">
+		        <a href="#" class="ico">
+		            <form action="" method="post">
+		              <input type="text" placeholder="请输入。。。" />
+		            </form>
+		        </a>
+		      </div>
+		    </div>
+		    <div class="shop"></div>
+	  	</header>
+	  	
+	  	<section id="main">
+	  	<!--轮播图-->
+	    <section class="banner swiper-container1">
+	      <ul class="swiper-wrapper">
+	      	<li class="swiper-slide"><a href=""><img src="img/banner1.jpg"/></a></li>
+	      	<li class="swiper-slide"><a href=""><img src="img/banner2.jpg"/></a></li>
+	      	<li class="swiper-slide"><a href=""><img src="img/banner3.jpg"/></a></li>
+	      	<li class="swiper-slide"><a href=""><img src="img/banner4.jpg"/></a></li>
+	      	<li class="swiper-slide"><a href=""><img src="img/banner5.jpg"/></a></li>
+	      </ul>
+	      <div class="swiper-pagination"></div>
+	      <ol class="swiper-pagination">
+	        <!--<li class="on"></li>
+	        <li></li>
+	        <li></li>
+	        <li></li>
+	        <li></li>-->
+	      </ol>
+	    </section>
+	    <!--导航-->
+	    <nav class="nav">
+	      <ul>
+	      	<li><a href=""><img src="img/nav1.png" /> <span>分类</span> </a></li>
+	      	<li><a href=""><img src="img/nav2.png" /><span>大聚惠</span></a></li>
+	      	<li><a href=""><img src="img/nav3.png" /><span>苏宁超市</span></a></li>
+	      	<li><a href=""><img src="img/nav4.png" /><span>红孩子母婴</span></a></li>
+	      	<li><a href=""><img src="img/nav5.png" /><span>特价手机</span></a></li>
+	      </ul>   
+	      <ul>
+          <li><a href=""><img src="img/nav6.png" /> <span>家电商城</span> </a></li>
+          <li><a href=""><img src="img/nav7.png" /><span>赚钱</span></a></li>
+          <li><a href=""><img src="img/nav8.png" /><span>领云钻</span></a></li>
+          <li><a href=""><img src="img/nav9.png" /><span>身边苏宁</span></a></li>
+          <li><a href=""><img src="img/nav10.png" /><span>优惠券</span></a></li>
+        </ul>
+	    </nav>
+	     <!--苏宁头条-->
+	     <section class="sntop clearfix">
+	     	<span class="snIco fl"></span>
+	     	<span class="line fl"></span>
+	     	<div class="list fr swiper-container2">
+	     		<ul class="swiper-wrapper">
+	     		<li class="swiper-slide"><a href="#main"><span><i></i>今年全球诞生了20件黑科技1 </span><span><i></i>苹果财报低于预期 三星创新高1</span></a></li>
+	     		<li class="swiper-slide"><a href="#main"><span><i></i>今年全球诞生了20件黑科技2 </span><span><i></i>苹果财报低于预期 三星创新高2</span></a></li>
+	     		<li class="swiper-slide"><a href="#main"><span><i></i>今年全球诞生了20件黑科技3 </span><span><i></i>苹果财报低于预期 三星创新高3</span></a></li>
+	     		<li class="swiper-slide"><a href="#main"><span><i></i>今年全球诞生了20件黑科技4</span><span><i></i>苹果财报低于预期 三星创新高4</span></a></li>
+	     		<li class="swiper-slide"><a href="#main"><span><i></i>今年全球诞生了20件黑科技 5</span><span><i></i>苹果财报低于预期 三星创新高5</span></a></li>
+	     		</ul>
+	     	</div>
+	     </section>
+	     <!--掌上抢-->
+		  <section class="buying">
+		    <div class="buyHd clearFix">
+		      <div class="buyIcon fl"></div>
+		      <div class="site fl">21点场次</div>
+		      <div class="time fl">
+		        <span id="hour"></span> :
+		        <span id="min"></span> :
+		        <span id="sec"></span>
+		      </div>
+		      <div class="rob fr">
+		        <a href="#" class="fl">花少钱,抢好物</a>
+		        <span class="fl"></span>
+		      </div>
+		    </div>
+		     <div class="buylist swiper-container3">
+	          <ul class="swiper-wrapper">
+	            <li class="swiper-slide"><img src="img/buy1.png" alt="" width="100%" height="100%"/></li>
+	            <li class="swiper-slide"><img src="img/buy2.png" alt="" width="100%" height="100%"/></li>
+	            <li class="swiper-slide"><img src="img/buy3.png" alt="" width="100%" height="100%"/></li>
+	            <li class="swiper-slide"><img src="img/buy1.png" alt="" width="100%" height="100%"/></li>
+	            <li class="swiper-slide"><img src="img/buy2.png" alt="" width="100%" height="100%"/></li>
+	            <li class="swiper-slide"><img src="img/buy3.png" alt="" width="100%" height="100%"/></li>
+	          </ul>
+	        </div>
+		  </section>
+		  <!--超实惠-->
+		  <section>
+		  	<div class="cheap">
+		  		<div class="cheapTop"></div>
+		  		<div class="dajuhui fl">
+		  			<a><img src="img/cheap1.jpg" width="100%" height="100%"/></a>
+		  		</div>
+		  		<div class="dajuhuiRight fr">
+		  			<a><img src="img/cheap2.png" width="100%" height="100%"/></a>
+		  			<a><img src="img/cheap3.jpg" width="100%" height="100%"/></a>
+		  		</div>
+		  		<div class="dajuhuiBottom">
+		  			<a class="fl"><img src="img/cheap4.jpg" width="100%" height="100%"/></a>
+		  			<a class="fr"><img src="img/cheap5.jpg" width="100%" height="100%"/></a>
+		  		</div>
+		  	</div>
+		  </section>
+		  <!--猜你喜欢-->
+		  <section>
+		  	<div class="guess">
+		  		<div class="lineLeft fl"></div>
+		  		<div class="likeWrap">
+		  			<span class="like fl"></span>
+		  			<span class="text fl">猜你喜欢</span>
+		  		</div>
+		  		<div class="lineRight fr"></div>
+		  	</div>
+		  	<div class="login"><span class="Log">登陆后给您专属推荐>></span></div>
+		  	<div class="guessBuy">
+		  		<div class="pic fl">
+		  			<a class="shangpin"> <img src="img/17.jpg" width="100%" height="100%"/> </a>
+		  			<a> <span class="complain fl">哈哈哈</span> </a>
+		  			<span class="price fl">$88.00</span>
+		  			<div class="same fr">找相似</div>
+		  		</div>
+		  		<div class="pic fl">
+		  			<a class="shangpin"> <img src="img/18.jpg" width="100%" height="100%" /> </a>
+		  			<a> <span class="complain fl">666</span> </a>
+		  			<span class="price fl">$188.00</span>
+		  			<div class="same fr">找相似</div>
+		  		</div>
+		  	</div>
+		  </section>
+		  <!--结尾-->
+		  <section>
+		  	<div class="footer">
+		  		<div>
+		  			<img src="img/ft1.png" />
+		  			<span>首页</span>
+		  		</div>
+		  		<div>
+		  			<img src="img/ft2.png" />
+		  			<span>分类</span>
+		  		</div>
+		  		<div>
+		  			<img src="img/ft3.png" />
+		  			<span>必抢清单</span>
+		  		</div>
+		  		<div>
+		  			<img src="img/ft4.png" />
+		  			<span>我的易购</span>
+		  		</div>
+		  		<div>
+		  			<img src="img/ft5.png" />
+		  			<span>新人大礼包</span>
+		  		</div>
+		  	</div>
+		  </section>
+	  	</section>
+	</body>
+
+	<script type="text/javascript">
+		var div = document.querySelector('.class');
+		
+		var timer;
+		var endTime = new Date();
+		endTime.setFullYear(2017);
+		endTime.setDate(30);
+		endTime.setMonth(8);
+		endTime.setHours(10);
+		endTime.setMinutes(0);
+		endTime.setSeconds(0);
+		
+		//时间戳
+		var endTimer = endTime.getTime();
+		var iHour = document.querySelector('#hour');
+		var iMin = document.querySelector('#min');
+		var iSec = document.querySelector('#sec');
+		
+		changeTime(endTimer);
+		timer = setInterval(function(){
+			changeTime(endTimer);
+		},1000);
+		function changeTime(time){
+			var newTimer = new Date();
+			var sec = (time - newTimer.getTime())/1000;  //结束时间减去当前时间
+			if(sec > 0){
+				var hour = Math.floor(sec/3600);  //小时
+				sec = sec%3600;
+				var min = Math.floor(sec/60);
+				sec = Math.floor(sec%60);
+				iHour.innerHTML = zero(hour,2);
+				iMin.innerHTML = zero(min,2);
+				iSec.innerHTML = zero(sec,2);
+			} else{
+				clearInterval(timer);
+				iHour.innerHTML = '00';
+				iMin.innerHTML = '00';
+				iSec.innerHTML = '00';
+			}
+		}
+		//补零
+		function zero(time,n){
+			var str = '' + time;
+			while(str.length < n){
+				str = '0' + time;
+			}
+			return str;
+		}
+	</script>
+</html>

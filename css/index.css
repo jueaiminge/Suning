@@ -1,0 +1,439 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+body {
+  background-color: #f2f2f2;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+  clear: both;
+}
+ul {
+  list-style: none;
+}
+.border {
+  border: 1px solid red;
+}
+#hd {
+  height: 1.16883117rem;
+  background-color: #fabc09;
+  position: relative;
+}
+#hd .class {
+  margin-left: 0.32467532rem;
+  float: left;
+  margin-top: 0.19480519rem;
+  width: 0.57142857rem;
+  height: 0.90909091rem;
+  background: url(../img/class.png);
+  background-size: 0.57142857rem 0.90909091rem;
+  cursor: pointer;
+}
+#hd .shop {
+  margin-right: 0.22077922rem;
+  float: right;
+  margin-top: 0.15584416rem;
+  width: 0.81818182rem;
+  height: 0.88311688rem;
+  background: url(../img/shop.png);
+  background-size: 0.81818182rem 0.88311688rem;
+  cursor: pointer;
+}
+#hd .search {
+  height: 0.81818182rem;
+  width: 7.45454545rem;
+  background-color: white;
+  left: 1.23376623rem;
+  top: 0.22077922rem;
+  position: absolute;
+  border-radius: 0.12987013rem;
+}
+#hd .search .bar {
+  position: relative;
+}
+#hd .search .bar .ico {
+  position: absolute;
+  background: url(../img/search.png) no-repeat;
+  background-size: 0.35064935rem 0.36363636rem;
+  left: 0.22077922rem;
+  top: 0.22077922rem;
+  width: 0.35064935rem;
+  height: 0.36363636rem;
+  background-color: transparent;
+}
+#hd .search .bar form input {
+  position: absolute;
+  left: 0.54545455rem;
+  top: 0.03896104rem;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  width: 6.36363636rem;
+  height: 0.32467532rem;
+  font-size: 0.20779221rem;
+}
+.banner {
+  height: 4.23376623rem;
+  overflow: hidden;
+  position: relative;
+}
+.banner ul {
+  width: 700%;
+  height: 100%;
+}
+.banner ul li {
+  float: left;
+  height: 100%;
+  width: 10rem;
+}
+.banner ul li a {
+  height: 100%;
+  display: block;
+}
+.banner ul li a img {
+  vertical-align: top;
+  width: 10rem;
+  height: 4.23376623rem;
+}
+.banner ol {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 0.25974026rem;
+  left: 0;
+  line-height: 0;
+}
+.banner ol li {
+  width: 0.16883117rem;
+  height: 0.16883117rem;
+  display: inline-block;
+  background: white;
+  vertical-align: top;
+  border-radius: 0.07792208rem;
+  margin: 0 0.06493506rem;
+}
+.banner ol li.swiper-pagination-bullet-active {
+  background-color: #ffc001;
+}
+.nav {
+  padding-top: 0.25974026rem;
+  background-color: white;
+  padding-bottom: 0.12987013rem;
+}
+.nav ul {
+  height: 1.55844156rem;
+  margin-bottom: 0.25974026rem;
+  display: -webkit-flex;
+  display: flex;
+}
+.nav ul li {
+  flex: 1;
+}
+.nav ul li a {
+  height: 100%;
+  display: block;
+  color: #ccc;
+  font-size: 0.31168831rem;
+  text-align: center;
+}
+.nav ul li a img {
+  width: 1.03896104rem;
+  height: 1.03896104rem;
+}
+.nav ul li a span {
+  display: block;
+}
+.sntop {
+  padding-top: 0.19480519rem;
+  position: relative;
+  background-color: white;
+  margin: 0.03896104rem 0 0.31168831rem 0;
+}
+.sntop .snIco {
+  width: 1.88311688rem;
+  height: 0.83116883rem;
+  background: url(../img/sntop.png) no-repeat;
+  background-size: 100% 100%;
+}
+.sntop .line {
+  width: 0.02597403rem;
+  height: 0.51948052rem;
+  background-color: #dcdcdc;
+  position: absolute;
+  top: 0.38961039rem;
+  left: 2.25974026rem;
+}
+.sntop .list {
+  width: 7.33766234rem;
+  height: 1.1038961rem;
+  margin-top: -0.12987013rem;
+  overflow: hidden;
+  position: relative;
+}
+.sntop .list ul {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0.38961039rem;
+}
+.sntop .list li {
+  height: 100%;
+}
+.sntop .list li a {
+  height: 100%;
+  display: block;
+  font-size: 0.32467532rem;
+}
+.sntop .list li a span {
+  height: 0.36363636rem;
+  display: block;
+  position: relative;
+}
+.sntop .list li a span:first-child {
+  margin-bottom: 0.07792208rem;
+}
+.sntop .list li a span:last-child {
+  color: #ddd;
+}
+.sntop .list li a span i {
+  position: absolute;
+  width: 0.1038961rem;
+  height: 0.1038961rem;
+  background-color: gold;
+  top: 0.16883117rem;
+  left: -0.19480519rem;
+  border-radius: 0.05194805rem;
+}
+.buying {
+  height: 4.15584416rem;
+  background-color: white;
+}
+.buyHd {
+  height: 1.03896104rem;
+}
+.buyIcon {
+  height: 100%;
+  width: 1.76623377rem;
+  background: url(../img/buying.png) no-repeat center;
+  background-size: 100% 0.61038961rem;
+  margin-left: 0.25974026rem;
+}
+.site {
+  color: red;
+  width: 1.33766234rem;
+  font-size: 0.31168831rem;
+  line-height: 1.03896104rem;
+  margin-left: 0.25974026rem;
+  padding-top: 0.06493506rem;
+}
+.time {
+  width: 1.94805195rem;
+  font-size: 0.31168831rem;
+  padding-top: 0.31168831rem;
+  padding-left: 0.15584416rem;
+}
+.time span {
+  border: 0.05194805rem solid #333333;
+  border-radius: 0.05194805rem;
+}
+.time span:last-child {
+  border: 0.05194805rem solid #fa4b4b;
+  border-radius: 0.05194805rem;
+}
+.rob {
+  padding-top: 0.33766234rem;
+  padding-right: 0.27272727rem;
+}
+.rob a {
+  width: 2.27272727rem;
+  height: 0.46753247rem;
+  background-color: #ffc001;
+  font-size: 0.31168831rem;
+  border-radius: 0.25974026rem;
+  text-align: center;
+}
+.rob span {
+  background: url(../img/arrowR.png) no-repeat center;
+  background-size: 0.25974026rem 0.25974026rem;
+  width: 0.32467532rem;
+  height: 0.46753247rem;
+}
+.buylist {
+  height: 3.18181818rem;
+  overflow: hidden;
+  width: 100%;
+}
+.buylist ul li {
+  float: left;
+  width: 2.98701299rem !important;
+  margin-left: 0.12987013rem !important;
+}
+.buylist ul li:first-child {
+  margin-left: 0.28571429rem;
+}
+.buylist ul {
+  width: 189%;
+}
+.cheap {
+  height: 6.44155844rem;
+  width: 100%;
+  margin-top: 0.31168831rem;
+  background: white;
+  box-sizing: border-box;
+}
+.cheapTop {
+  width: 100%;
+  height: 0.80519481rem;
+  background: url(../img/discount.png) no-repeat center;
+  background-size: 100% 100%;
+}
+.dajuhui {
+  width: 5rem;
+  height: 3.8961039rem;
+  border: 0.03896104rem solid #f2f2f2;
+  border-left: none;
+  box-sizing: border-box;
+}
+.dajuhuiRight {
+  width: 5rem;
+  height: 3.8961039rem;
+}
+.dajuhuiRight a {
+  display: block;
+  width: 100%;
+  height: 1.94805195rem;
+  border: 0.03896104rem solid #f2f2f2;
+  border-left: none;
+  border-right: none;
+  box-sizing: border-box;
+}
+.dajuhuiRight a:first-child {
+  border-bottom: none;
+  border-left: none;
+}
+.dajuhuiBottom {
+  width: 100%;
+  height: 1.72727273rem;
+  box-sizing: border-box;
+}
+.dajuhuiBottom a {
+  display: block;
+  box-sizing: border-box;
+  border: 0.03896104rem solid #f2f2f2;
+  height: 100%;
+  width: 5rem;
+  border-top: none;
+}
+.dajuhuiBottom a:last-child {
+  border-left: none;
+  border-right: none;
+}
+.guess {
+  height: 0.51948052rem;
+  margin-top: 0.36363636rem;
+  position: relative;
+}
+.lineLeft,
+.lineRight {
+  width: 3.28571429rem;
+  border: 0.02597403rem solid #808080;
+  margin: 0.25974026rem 0.2987013rem;
+}
+.guess .likeWrap .like {
+  background: url(../img/like.png) no-repeat;
+  background-size: 0.44155844rem 0.44155844rem;
+  width: 0.51948052rem;
+  height: 0.51948052rem;
+  display: block;
+  margin-top: 0.06493506rem;
+}
+.guess .likeWrap .text {
+  font-size: 0.38961039rem;
+}
+.guess .likeWrap {
+  position: absolute;
+  top: 0rem;
+  left: 3.96103896rem;
+}
+.login {
+  font-size: 0.36363636rem;
+  color: #ffaa00;
+  margin-top: 0.18181818rem;
+  text-align: center;
+  margin-bottom: 0.25974026rem;
+}
+.login .Log {
+  width: 3.8961039rem;
+  display: block;
+  margin: 0 auto;
+}
+.guessBuy .pic {
+  width: 4.54545455rem;
+  height: 6.62337662rem;
+  margin-left: 0.27272727rem;
+  background: white;
+  margin-bottom: 1.62337662rem;
+}
+.guessBuy .pic .shangpin {
+  display: block;
+  width: 100%;
+  height: 4.64935065rem;
+}
+.guessBuy .pic .complain {
+  font-size: 0.38961039rem;
+  display: block;
+  height: 0.97402597rem;
+  width: 100%;
+  margin-left: 0.15584416rem;
+}
+.guessBuy .pic .price {
+  color: red;
+  font-size: 0.51948052rem;
+  margin-left: 0.15584416rem;
+  margin-bottom: 0.35064935rem;
+}
+.guessBuy .pic .same {
+  color: #ffc001;
+  border: 0.03896104rem solid #ffc001;
+  border-radius: 0.12987013rem;
+  margin-right: 0.15584416rem;
+  margin-bottom: 0.12987013rem;
+  font-size: 0.38961039rem;
+  padding: 0.14285714rem 0.25974026rem;
+}
+.footer {
+  background: white;
+  margin-top: 0.25974026rem;
+  display: flex;
+  font-size: 0.38961039rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.footer div {
+  flex: 1;
+  text-align: center;
+  margin-top: 0.12987013rem;
+}
+.footer div span {
+  display: block;
+  margin-top: 0.06493506rem;
+}
+.footer div img {
+  width: 0.71428571rem;
+  height: 0.71428571rem;
+}

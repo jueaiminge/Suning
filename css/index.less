@@ -1,0 +1,452 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    background-color: #f2f2f2;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    overflow: hidden;
+    zoom: 1;
+    clear: both;
+}
+ul{
+    list-style: none;
+}
+.border{
+    border: 1px solid red;
+}
+@rem:77rem;
+//头部
+#hd{
+    height: 90/@rem;
+    background-color: rgb(250,188,9);
+    position: relative;
+}
+#hd .class{
+    margin-left: 25/@rem;
+    float: left;
+    margin-top: 15/@rem;
+    width: 44/@rem;
+    height: 70/@rem;
+    background: url(../img/class.png);
+    background-size: 44/@rem 70/@rem;
+    cursor: pointer;
+}
+#hd .shop{
+    margin-right: 17/@rem;
+    float: right;
+    margin-top: 12/@rem;
+    width: 63/@rem;
+    height: 68/@rem;
+    background: url(../img/shop.png);
+    background-size: 63/@rem 68/@rem;
+    cursor: pointer;
+}
+#hd .search{
+    height: 63/@rem;
+    width: 574/@rem;
+    background-color: white;
+    left: 95/@rem;
+    top: 17/@rem;
+    position: absolute;
+    border-radius: 10/@rem;
+}
+#hd .search .bar{
+    position: relative;
+}
+#hd .search .bar .ico{
+    position: absolute;
+    background: url(../img/search.png) no-repeat;
+    background-size: 27/@rem 28/@rem;
+    left: 17/@rem;
+    top: 17/@rem;
+    width: 27/@rem;
+    height: 28/@rem;
+    background-color: transparent;
+}
+#hd .search .bar form input{
+    position: absolute;
+    left: 42/@rem;
+    top: 3/@rem;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    width: 490/@rem;
+    height: 25/@rem;
+    font-size: 16/@rem;
+}
+//轮播图
+.banner{
+    height: 326/@rem;
+    overflow: hidden;
+    position: relative;
+}
+.banner ul{
+    width: 700%;
+    height: 100%;
+}
+.banner ul li{
+    float: left;
+    height: 100%;
+    width: 770/@rem;
+}
+.banner ul li a{
+    height: 100%;
+    display: block;
+}
+.banner ul li a img{
+    vertical-align: top;
+    width: 770/@rem;
+    height: 326/@rem;
+}
+.banner ol{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 20/@rem;
+    left: 0;
+    line-height: 0;
+}
+.banner ol li{
+    width: 13/@rem;
+    height: 13/@rem;
+    display: inline-block;
+    background: white;
+    vertical-align: top;
+    border-radius: 6/@rem;
+    margin: 0 5/@rem;
+}
+.banner ol li.swiper-pagination-bullet-active{
+    background-color: #ffc001;
+}
+//弹性列表
+.nav{
+    padding-top: 20/@rem;
+    background-color: white;
+    padding-bottom: 10/@rem;
+}
+.nav ul{
+    height: 120/@rem;
+    margin-bottom: 20/@rem;
+    display: -webkit-flex;
+    display: flex;
+}
+.nav ul li{
+    flex: 1;
+}
+.nav ul li a{
+    height: 100%;
+    display: block;
+    color: #ccc;
+    font-size: 24/@rem;
+    text-align: center;
+}
+.nav ul li a img{
+    width: 80/@rem;
+    height: 80/@rem;
+}
+.nav ul li a span{
+    display: block;
+}
+//苏宁头条
+.sntop{
+    padding-top: 15/@rem;
+    position: relative;
+    background-color: white;
+    margin: 3/@rem 0 24/@rem 0;
+}
+.sntop .snIco{
+    width: 145/@rem;
+    height: 64/@rem;
+    background: url(../img/sntop.png) no-repeat;
+    background-size: 100% 100%;
+}
+.sntop .line{
+    width: 2/@rem;
+    height: 40/@rem;
+    background-color: rgb(220,220,220);
+    position: absolute;
+    top: 30/@rem;
+    left: 174/@rem;
+}
+.sntop .list{
+    width: 565/@rem;
+    height: 85/@rem;
+    margin-top: -10/@rem;
+    overflow: hidden;
+    position: relative;
+}
+.sntop .list ul{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 30/@rem;
+}
+.sntop .list li{
+    height: 100%;
+}
+.sntop .list li a{
+    height: 100%;
+    display: block;
+    font-size: 25/@rem;
+}
+.sntop .list li a span{
+    height: 28/@rem;
+    display: block;
+    position: relative;
+}
+.sntop .list li a span:first-child{
+    margin-bottom: 6/@rem;
+}
+.sntop .list li a span:last-child{
+    color: #ddd;
+}
+.sntop .list li a span i{
+    position: absolute;
+    width: 8/@rem;
+    height: 8/@rem;
+    background-color: gold;
+    top: 13/@rem;
+    left: -15/@rem;
+    border-radius: 4/@rem;
+}
+//掌上抢
+
+.buying{
+    height: 320/@rem;
+    background-color: white;
+}
+.buyHd{
+    height: 80/@rem; 
+}
+.buyIcon{
+    height: 100%;
+    width: 136/@rem;
+    background: url(../img/buying.png) no-repeat center;
+    background-size: 100% 47/@rem;
+    margin-left: 20/@rem;
+}
+.site{
+    color: red;
+    width: 103/@rem;
+    font-size: 24/@rem;
+    line-height: 80/@rem;
+    margin-left: 20/@rem;
+    padding-top: 5/@rem;
+}
+.time{
+    width: 150/@rem;
+    font-size: 24/@rem;
+    padding-top: 24/@rem;
+    padding-left: 12/@rem;
+}
+.time span{
+    border: 4/@rem solid rgb(51,51,51);
+    border-radius: 4/@rem;
+}
+.time span:last-child{
+    border: 4/@rem solid rgb(250,75,75);
+    border-radius: 4/@rem;
+}
+.rob{
+    padding-top: 26/@rem;
+    padding-right: 21/@rem;
+}
+.rob a{
+    width: 175/@rem;
+    height: 36/@rem;
+    background-color: rgb(255,192,1);
+    font-size: 24/@rem;
+    border-radius: 20/@rem;
+    text-align: center;
+}
+.rob span{
+    background: url(../img/arrowR.png) no-repeat center;
+    background-size: 20/@rem 20/@rem;
+    width: 25/@rem;
+    height: 36/@rem;
+}
+.buylist{
+    height:245/@rem;
+    overflow: hidden;
+    width: 100%;
+}
+.buylist ul li{
+    float: left;
+    width: 230/@rem !important;
+    margin-left: 10/@rem !important;
+}
+.buylist ul li:first-child{
+    margin-left: 22/@rem;
+}
+.buylist ul{
+    width: 189%;
+}
+//大聚惠
+.cheap{
+    height: 496/@rem;
+    width: 100%;
+    margin-top: 24/@rem;
+    background: white;
+    box-sizing: border-box;
+}
+.cheapTop{
+    width: 100%;
+    height: 62/@rem;
+    background: url(../img/discount.png) no-repeat center;
+    background-size: 100% 100%;
+}
+.dajuhui{
+    width: 385/@rem;
+    height: 300/@rem;
+    border: 3/@rem solid rgb(242,242,242);
+    border-left: none;
+    box-sizing: border-box;
+}
+.dajuhuiRight{
+    width: 385/@rem;
+    height: 300/@rem;
+}
+.dajuhuiRight a{
+    display: block;
+    width:100%;
+    height: 150/@rem;
+    border: 3/@rem solid rgb(242,242,242);
+    border-left: none;
+    border-right: none;
+    box-sizing: border-box;
+}
+.dajuhuiRight a:first-child{
+    border-bottom: none;
+    border-left: none;
+}
+.dajuhuiBottom{
+    width: 100%;
+    height: 133/@rem;
+    box-sizing: border-box;
+}
+.dajuhuiBottom a{
+    display: block;
+    box-sizing: border-box;
+    border: 3/@rem solid rgb(242,242,242);
+    height: 100%;
+    width: 385/@rem;
+    border-top: none;
+}
+.dajuhuiBottom a:last-child{
+    border-left: none;
+    border-right: none;
+}
+//猜你喜欢
+.guess{
+    height: 40/@rem;
+    margin-top: 28/@rem;
+    position: relative;
+}
+.lineLeft,.lineRight{
+    width: 253/@rem;
+    border: 2/@rem solid gray;
+    margin: 20/@rem 23/@rem;
+}
+.guess .likeWrap .like{
+    background: url(../img/like.png) no-repeat;
+    background-size: 34/@rem 34/@rem;
+    width: 40/@rem;
+    height: 40/@rem;
+    display: block;
+    margin-top: 5/@rem;
+}
+.guess .likeWrap .text{
+    font-size: 30/@rem;
+}
+.guess .likeWrap{
+    position: absolute;
+    top: 0/@rem;
+    left: 305/@rem;
+}
+.login{
+    font-size: 28/@rem;
+    color: rgb(255,170,0);
+    margin-top: 14/@rem;
+    text-align: center;
+    margin-bottom: 20/@rem;
+}
+.login .Log{
+    width: 300/@rem;
+    display: block;
+    margin: 0 auto;
+}
+//.guessBuy{
+////  height: 520/@rem;
+//  margin-bottom: 120/@rem;
+//}
+.guessBuy .pic{
+    width: 350/@rem;
+    height: 510/@rem;
+    margin-left: 21/@rem;
+    background: white;
+    margin-bottom: 125/@rem;
+}
+.guessBuy .pic .shangpin{
+    display: block;
+    width: 100%;
+    height: 358/@rem;
+}
+.guessBuy .pic .complain{
+    font-size: 30/@rem;
+    display: block;
+    height: 75/@rem;
+    width: 100%;
+    margin-left: 12/@rem;
+}
+.guessBuy .pic .price{
+    color: red;
+    font-size: 40/@rem;
+    margin-left: 12/@rem;
+    margin-bottom: 27/@rem;
+}
+.guessBuy .pic .same{
+    color: rgb(255,192,1);
+    border: 3/@rem solid rgb(255,192,1);
+    border-radius: 10/@rem;
+    margin-right: 12/@rem;
+    margin-bottom: 10/@rem;
+    font-size: 30/@rem;
+    padding: 11/@rem 20/@rem;
+}
+
+.footer{
+    background: white;
+    margin-top: 20/@rem;
+    display: flex;
+    font-size: 30/@rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer div{
+    flex: 1;
+    text-align: center;
+    margin-top: 10/@rem;
+}
+.footer div span{
+    display: block;
+    margin-top: 5/@rem;
+}
+.footer div img{
+    width: 55/@rem;
+    height: 55/@rem;
+}
